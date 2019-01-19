@@ -19,6 +19,9 @@ public class RobotColorChooser {
 				r2d2.setPenColor(255, 0, 0);
 			} else if (color.equals("blue")) {
 				r2d2.setPenColor(0, 255, 0);
+				if(color.equals("green")){
+					r2d2.setPenColor(0,0,225);
+				}
 			} else {
 				r2d2.setRandomPenColor();
 
